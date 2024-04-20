@@ -1,4 +1,5 @@
-const quiz_wrap = document.getElementById("quiz_wrap");
+$(document).ready(function(){
+const quiz_wrap = $("#quiz_wrap");
 const start = document.getElementById("start_button");
 const previous = document.getElementById("previous_button");
 const next = document.getElementById("next_button");
@@ -137,3 +138,5 @@ function show_result(){
         quiz_result.appendChild(question_wrap);
     }
 }
+
+})
