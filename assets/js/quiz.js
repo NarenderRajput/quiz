@@ -17,7 +17,7 @@ function play_quiz() {
 
     const quiz = quizes[quiz_index];
     const question = document.createElement("p");
-    question.innerText = quiz.question;
+    question.innerText = `${quiz_index+1}. ${quiz.question}`;
     const options = document.createElement("div");
     for (const op of quiz.options) {
         const opt = document.createElement("p");
@@ -78,6 +78,8 @@ start.addEventListener("click", async function () {
 
     play_quiz();
     this.style.display = "none";
+    next.classList.remove('d-none');
+    previous.classList.remove('d-none');
 })
 
 next.addEventListener("click", function () {
@@ -106,11 +108,12 @@ previous.addEventListener("click", function () {
 function show_result() {
     quiz_result.innerHTML = "";
     for (const index in score) {
+        let i = index;
         const result = score[index];
         const quiz = quizes[index];
         const question_wrap = document.createElement("div");
         const question = document.createElement("h2");
-        question.innerText = quiz.question;
+        question.innerText = `${++i}. ${quiz.question}`;
         const answer = document.createElement("p");
         answer.innerHTML = "<strong> correct answer : </strong> " + quiz.answer;
         const selected_answer = document.createElement("p");
