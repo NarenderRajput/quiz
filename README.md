@@ -16,3 +16,8 @@ This is HTML, CSS and Javascript based quiz application.
 https://narenderrajput.github.io/quiz/
 
 [View Demo on youtube](https://youtu.be/0upIxqAJieU)
+
+
+# Screenshot
+
+[Screenshot](./Screenshot.png)
