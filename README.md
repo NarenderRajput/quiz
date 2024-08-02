@@ -20,4 +20,4 @@ https://narenderrajput.github.io/quiz/
 
 # Screenshot
 
-![Screenshot](./Screenshot.png)
+![Screenshot](./Screenshots.png)
