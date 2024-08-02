@@ -8,9 +8,7 @@ let quizes = [];
 let quiz_index = 0;
 let score = [];
 
-async function play_quiz() {
-
-    quizes = await fetchQuestions();
+function play_quiz() {
 
     if (quizes.length === 0) {
         console.error('No question found!');
@@ -75,7 +73,9 @@ function restore_progress(option) {
     return false;
 }
 
-start.addEventListener("click", function () {
+start.addEventListener("click", async function () {
+    quizes = await fetchQuestions();
+
     play_quiz();
     this.style.display = "none";
 })
@@ -94,12 +94,12 @@ next.addEventListener("click", function () {
 
 previous.addEventListener("click", function () {
     store_progress();
-    if (quiz_index == quizes.length - 1) {
+
+    if (quiz_index !== 0) {
         quiz_index--;
         play_quiz();
-    }
-
-    else if (quiz_index == 0) {
+        
+    } else {
         alert("No Previous Quiz");
     }
 })
