@@ -85,8 +85,7 @@ next.addEventListener("click", function () {
     if (quiz_index !== quizes.length - 1) {
         quiz_index++;
         play_quiz();
-    }
-    else {
+    } else {
         alert("Quiz Over");
         show_result();
     }
@@ -98,7 +97,7 @@ previous.addEventListener("click", function () {
     if (quiz_index !== 0) {
         quiz_index--;
         play_quiz();
-        
+
     } else {
         alert("No Previous Quiz");
     }
