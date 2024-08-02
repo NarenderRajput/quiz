@@ -1,0 +1,289 @@
+[
+    {
+        "question": "What does HTML stand for?",
+        "answer": "C",
+        "options": [
+            {
+                "code": "A",
+                "label": "Home Tool Markup Language"
+            },
+            {
+                "code": "B",
+                "label": "Hyperlinks and Text Markup Language"
+            },
+            {
+                "code": "C",
+                "label": "Hyper Text Markup Language"
+            },
+            {
+                "code": "D",
+                "label": "Hyper Text Msg Language"
+            }
+        ]
+    },
+    {
+        "question": "Which HTML tag is used to define an internal style sheet?",
+        "answer": "B",
+        "options": [
+            {
+                "code": "A",
+                "label": "<style>"
+            },
+            {
+                "code": "B",
+                "label": "<link>"
+            },
+            {
+                "code": "C",
+                "label": "<script>"
+            },
+            {
+                "code": "D",
+                "label": "<css>"
+            }
+        ]
+    },
+    {
+        "question": "Which property is used to change the background color in CSS?",
+        "answer": "D",
+        "options": [
+            {
+                "code": "A",
+                "label": "color"
+            },
+            {
+                "code": "B",
+                "label": "bgcolor"
+            },
+            {
+                "code": "C",
+                "label": "background"
+            },
+            {
+                "code": "D",
+                "label": "background-color"
+            }
+        ]
+    },
+    {
+        "question": "What does CSS stand for?",
+        "answer": "A",
+        "options": [
+            {
+                "code": "A",
+                "label": "Cascading Style Sheets"
+            },
+            {
+                "code": "B",
+                "label": "Creative Style Sheets"
+            },
+            {
+                "code": "C",
+                "label": "Computer Style Sheets"
+            },
+            {
+                "code": "D",
+                "label": "Colorful Style Sheets"
+            }
+        ]
+    },
+    {
+        "question": "Which HTML attribute specifies an alternate text for an image, if the image cannot be displayed?",
+        "answer": "B",
+        "options": [
+            {
+                "code": "A",
+                "label": "alt"
+            },
+            {
+                "code": "B",
+                "label": "alt-text"
+            },
+            {
+                "code": "C",
+                "label": "src"
+            },
+            {
+                "code": "D",
+                "label": "title"
+            }
+        ]
+    },
+    {
+        "question": "How do you create a function in JavaScript?",
+        "answer": "A",
+        "options": [
+            {
+                "code": "A",
+                "label": "function myFunction() {}"
+            },
+            {
+                "code": "B",
+                "label": "create myFunction() {}"
+            },
+            {
+                "code": "C",
+                "label": "function:myFunction() {}"
+            },
+            {
+                "code": "D",
+                "label": "function = myFunction() {}"
+            }
+        ]
+    },
+    {
+        "question": "What is the purpose of the 'this' keyword in JavaScript?",
+        "answer": "D",
+        "options": [
+            {
+                "code": "A",
+                "label": "To refer to the parent object"
+            },
+            {
+                "code": "B",
+                "label": "To refer to the global object"
+            },
+            {
+                "code": "C",
+                "label": "To refer to a specific variable"
+            },
+            {
+                "code": "D",
+                "label": "To refer to the current object"
+            }
+        ]
+    },
+    {
+        "question": "What does the '== ' operator do in JavaScript?",
+        "answer": "C",
+        "options": [
+            {
+                "code": "A",
+                "label": "Checks if two variables are equal and of the same type"
+            },
+            {
+                "code": "B",
+                "label": "Checks if two variables are equal and of different types"
+            },
+            {
+                "code": "C",
+                "label": "Checks if two variables are equal, type coercion allowed"
+            },
+            {
+                "code": "D",
+                "label": "Checks if two variables are not equal"
+            }
+        ]
+    },
+    {
+        "question": "Which of the following is a JavaScript data type?",
+        "answer": "A",
+        "options": [
+            {
+                "code": "A",
+                "label": "Object"
+            },
+            {
+                "code": "B",
+                "label": "Element"
+            },
+            {
+                "code": "C",
+                "label": "Tag"
+            },
+            {
+                "code": "D",
+                "label": "Component"
+            }
+        ]
+    },
+    {
+        "question": "How can you include an external JavaScript file in an HTML document?",
+        "answer": "D",
+        "options": [
+            {
+                "code": "A",
+                "label": "<script src='file.js'>"
+            },
+            {
+                "code": "B",
+                "label": "<script href='file.js'>"
+            },
+            {
+                "code": "C",
+                "label": "<include src='file.js'>"
+            },
+            {
+                "code": "D",
+                "label": "<script src='file.js'></script>"
+            }
+        ]
+    },
+    {
+        "question": "What does the 'map' function do in JavaScript arrays?",
+        "answer": "A",
+        "options": [
+            {
+                "code": "A",
+                "label": "Creates a new array with the results of calling a function for every array element"
+            },
+            {
+                "code": "B",
+                "label": "Filters the array elements based on a condition"
+            },
+            {
+                "code": "C",
+                "label": "Sorts the array elements in ascending order"
+            },
+            {
+                "code": "D",
+                "label": "Reduces the array to a single value"
+            }
+        ]
+    },
+    {
+        "question": "Which CSS property is used to set the font size?",
+        "answer": "C",
+        "options": [
+            {
+                "code": "A",
+                "label": "text-size"
+            },
+            {
+                "code": "B",
+                "label": "font-style"
+            },
+            {
+                "code": "C",
+                "label": "font-size"
+            },
+            {
+                "code": "D",
+                "label": "text-font"
+            }
+        ]
+    },
+    {
+        "question": "How can you center a block element horizontally in CSS?",
+        "answer": "A",
+        "options": [
+            {
+                "code": "A",
+                "label": "margin: auto;"
+            },
+            {
+                "code": "B",
+                "label": "text-align: center;"
+            },
+            {
+                "code": "C",
+                "label": "align: center;"
+            },
+            {
+                "code": "D",
+                "label": "float: center;"
+            }
+        ]
+    }
+]
+
